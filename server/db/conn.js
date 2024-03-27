@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
-const username = "ns";
-const password = "nitins";
+const username = "";
+const password = "";
 const DB = `mongodb+srv://${username}:${password}@cluster0.4uysckg.mongodb.net/mearn?retryWrites=true&w=majority`;
 mongoose.connect(DB, {
     useUnifiedTopology: true,
